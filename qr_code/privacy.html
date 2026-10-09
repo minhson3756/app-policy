@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · ScanPoster</title>
+<meta name="description" content="How ScanPoster: QR Code & Barcode handles your data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef5f6; --surface: #ffffff; --ink: #0c1a21; --muted: #4a5a62; --line: #d7e3e6;
+    --acc: #007c7c; --g1: #00c8c0; --g2: #168dd9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #06121a; --surface: #0e222c; --ink: #f2f7f8; --muted: #a9b9bf; --line: #1d3440; --acc: #6be7c9;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #06121a; --surface: #0e222c; --ink: #f2f7f8; --muted: #a9b9bf; --line: #1d3440; --acc: #6be7c9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 "Sora", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .logo {
+    width: 48px; height: 48px; border-radius: 16px; flex: none;
+    background: linear-gradient(135deg, var(--g1), var(--g2));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.35);
+  }
+  .logo svg { width: 48px; height: 48px; display: block; }
+  .brand { font-weight: 700; font-size: 18px; }
+  .brand small { display: block; font-weight: 400; font-size: 13px; color: var(--muted); }
+  h1 { font-size: clamp(28px, 6vw, 36px); line-height: 1.2; margin: 28px 0 6px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  nav.toc { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px 20px; margin: 0 0 28px; }
+  nav.toc ol { margin: 0; padding-left: 20px; columns: 2 240px; column-gap: 28px; }
+  nav.toc a { color: var(--ink); text-decoration: none; font-size: 14px; }
+  nav.toc a:hover { color: var(--acc); }
+  h2 { font-size: 20px; margin: 36px 0 8px; scroll-margin-top: 16px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  a { color: var(--acc); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px 20px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; border-top: 0; }
+  .table-scroll { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 108 108"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="6" d="M25 39v-8a6 6 0 0 1 6-6h8M69 25h8a6 6 0 0 1 6 6v8M83 69v8a6 6 0 0 1-6 6h-8M39 83h-8a6 6 0 0 1-6-6v-8"/><path stroke-width="4" d="M41 37h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4zM61 37h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4zM41 57h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4z"/></g><g fill="#fff"><rect x="56" y="56" width="3" height="16" rx="1.5"/><rect x="61" y="56" width="5.5" height="16" rx="1.5"/><rect x="68.5" y="56" width="2.5" height="16" rx="1.25"/></g></svg>
+    </div>
+    <div class="brand">ScanPoster<small>QR Code &amp; Barcode</small></div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: October 9, 2026</p>
+
+  <p>This Privacy Policy explains how <strong>ScanPoster: QR Code &amp; Barcode</strong> (“ScanPoster”, “the app”), published by <strong>[Developer name]</strong> (“we”, “us”), handles information when you use the app on Android. In short: scanning happens on your device, your history stays on your device, and the third-party services we use for ads and purchases are described below.</p>
+
+  <nav class="toc" aria-label="Contents">
+    <ol>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#on-device">Data that stays on your device</a></li>
+      <li><a href="#permissions">Permissions</a></li>
+      <li><a href="#ads">Advertising and consent</a></li>
+      <li><a href="#purchases">Purchases and subscriptions</a></li>
+      <li><a href="#remote-config">App configuration</a></li>
+      <li><a href="#third-parties">Third-party services</a></li>
+      <li><a href="#retention">Retention and deletion</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#changes">Changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="summary">1. Summary</h2>
+  <div class="card table-scroll">
+    <table>
+      <tr><th>What</th><th>Where it goes</th></tr>
+      <tr><td>Camera images used for scanning</td><td>Processed on your device only. Never stored or uploaded.</td></tr>
+      <tr><td>Photos you pick to scan</td><td>Processed on your device only. Never uploaded.</td></tr>
+      <tr><td>Scan and creation history</td><td>Stored on your device only. You can turn it off or clear it.</td></tr>
+      <tr><td>Codes and posters you save</td><td>Saved to your device’s Pictures/ScanPoster and Download/ScanPoster folders.</td></tr>
+      <tr><td>Advertising ID, device and usage data</td><td>Google AdMob, to show and measure ads (free version), subject to your consent where required.</td></tr>
+      <tr><td>Purchase and subscription status</td><td>Google Play and RevenueCat, to process and verify ScanPoster Pro.</td></tr>
+    </table>
+  </div>
+  <p>We do not sell your personal information, and we do not have user accounts. We never see the content of the codes you scan or create.</p>
+
+  <h2 id="on-device">2. Data that stays on your device</h2>
+  <ul>
+    <li><strong>Scanning.</strong> Codes are decoded on your device using Google ML Kit’s on-device barcode scanning model, which ships inside the app. Camera frames are analysed in memory and discarded; they are not saved or sent anywhere by ScanPoster.</li>
+    <li><strong>Scan from photo.</strong> When you pick an image with the Android Photo Picker, the app only receives that image and decodes it on your device.</li>
+    <li><strong>History.</strong> Scanned and created codes (content, type, format, time, star) are stored in a local database on your device. You can disable “Save history” or clear it in Settings at any time. Uninstalling the app deletes it.</li>
+    <li><strong>Settings.</strong> Your theme, language and preferences are stored locally.</li>
+    <li><strong>Your files.</strong> Images and PDFs you save go to your device storage. Photos and logos you add to a poster are used only to render it on your device.</li>
+    <li><strong>Actions you choose.</strong> When you open a link, call, send an email or SMS, add a contact or event, join a Wi-Fi network, share, print or copy, the app hands the relevant content to Android or to the app you choose. That app’s own privacy policy then applies.</li>
+  </ul>
+
+  <h2 id="permissions">3. Permissions</h2>
+  <ul>
+    <li><strong>Camera</strong>: to scan codes. You can scan from photos instead if you deny it.</li>
+    <li><strong>Vibrate</strong>: optional haptic feedback when a code is found.</li>
+    <li><strong>Storage (Android 9 and older only)</strong>: to save images and PDFs to your device.</li>
+    <li><strong>Internet / network state</strong>: for ads, consent, purchase verification and app configuration. Scanning works offline.</li>
+    <li><strong>Advertising ID</strong> (<code>AD_ID</code>, added by the Google Mobile Ads SDK): see Advertising below.</li>
+  </ul>
+  <p class="muted">ScanPoster does not request access to your contacts, calendar, location or files. Contacts and events are added through Android’s own screens, which you confirm.</p>
+
+  <h2 id="ads">4. Advertising and consent</h2>
+  <p>The free version shows ads served by <strong>Google AdMob</strong> (Google Mobile Ads SDK). To deliver, personalise (where allowed), measure and prevent fraud in ads, Google may collect and process data such as your device’s advertising ID, IP address, device and app information, and interactions with ads. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+  <ul>
+    <li><strong>Consent.</strong> In the European Economic Area, the UK, Switzerland and other regions where it is required, we use Google’s User Messaging Platform to ask for your consent before ads are requested. You can change your choice anytime in <em>Settings › Privacy options</em> (shown where applicable). If you decline, you may still see non-personalised or limited ads.</li>
+    <li><strong>Advertising ID.</strong> You can reset or delete your advertising ID in Android Settings › Privacy › Ads.</li>
+    <li><strong>ScanPoster Pro</strong> removes ads; no ad requests are made for Pro users.</li>
+  </ul>
+
+  <h2 id="purchases">5. Purchases and subscriptions</h2>
+  <p>ScanPoster Pro is sold through <strong>Google Play</strong>. Payments are handled entirely by Google; we never receive your card or payment details. We use <strong>RevenueCat</strong> to verify purchases and manage your Pro status. RevenueCat receives an anonymous app user ID generated by the app, purchase and subscription records (product, transaction identifiers, dates, renewal status), and basic device and app information (such as platform, app version and country/store). See the <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+
+  <h2 id="remote-config">6. App configuration</h2>
+  <p>We may use <strong>Firebase Remote Config</strong> (Google) to turn ad placements on or off and adjust settings without an app update. It uses a Firebase installation identifier and basic device information to deliver configuration. See <a href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and Security in Firebase</a>.</p>
+
+  <h2 id="third-parties">7. Third-party services</h2>
+  <div class="card table-scroll">
+    <table>
+      <tr><th>Service</th><th>Purpose</th><th>Policy</th></tr>
+      <tr><td>Google AdMob &amp; User Messaging Platform</td><td>Ads and consent</td><td><a href="https://policies.google.com/privacy" rel="noopener">Google</a></td></tr>
+      <tr><td>Google Play Billing</td><td>Payments</td><td><a href="https://policies.google.com/privacy" rel="noopener">Google</a></td></tr>
+      <tr><td>RevenueCat</td><td>Purchase verification and Pro status</td><td><a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat</a></td></tr>
+      <tr><td>Firebase Remote Config</td><td>Remote app settings</td><td><a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase</a></td></tr>
+      <tr><td>Google ML Kit (on-device)</td><td>Barcode decoding on your device</td><td><a href="https://developers.google.com/ml-kit/terms" rel="noopener">ML Kit</a></td></tr>
+    </table>
+  </div>
+
+  <h2 id="retention">8. Retention and deletion</h2>
+  <ul>
+    <li>On-device data (history, settings) stays until you clear it, clear the app’s storage, or uninstall the app.</li>
+    <li>Files you saved remain in your device storage until you delete them.</li>
+    <li>Ad data is retained by Google according to its policies.</li>
+    <li>Purchase records are retained by Google Play and RevenueCat as needed to provide your purchases and meet legal obligations. To ask us to delete the RevenueCat data linked to your install, contact us (section 13).</li>
+  </ul>
+
+  <h2 id="rights">9. Your choices and rights</h2>
+  <p>Depending on where you live (for example under the GDPR, UK GDPR, or US state privacy laws such as the CCPA/CPRA), you may have the right to access, correct, delete or port your personal data, to object to or restrict processing, to withdraw consent, and to opt out of targeted advertising. You can withdraw ad consent in Settings › Privacy options, reset your advertising ID in Android settings, and contact us for any other request. You may also lodge a complaint with your local data protection authority.</p>
+
+  <h2 id="children">10. Children</h2>
+  <p>ScanPoster is not directed to children under 13 (or the minimum age in your country), and we do not knowingly collect their personal information. If you believe a child has provided us data, contact us and we will delete it.</p>
+
+  <h2 id="security">11. Security</h2>
+  <p>Your history never leaves your device. Data exchanged with our service providers is encrypted in transit. No method of storage or transmission is completely secure, but we take reasonable measures to protect information.</p>
+
+  <h2 id="changes">12. Changes to this policy</h2>
+  <p>We may update this policy as the app changes. We will update the effective date above and, for significant changes, notify you in the app or on its Google Play page.</p>
+
+  <h2 id="contact">13. Contact</h2>
+  <p>Questions or requests about privacy: <a href="mailto:[support-email]">[support-email]</a><br>[Developer name], [Address / country]</p>
+
+  <footer>
+    <span>© 2026 ScanPoster</span>
+    <a href="terms.html">Terms of Use</a>
+  </footer>
+</div>
+</body>
+</html>
